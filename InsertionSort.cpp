@@ -51,6 +51,13 @@ void display (){
         if (j<n-1) {
             cout << "--";
         }
-
     }
+}
+
+int main(){
+    input ();
+    InsertionSort();
+    display();
+    system("pause");
+    return 0;
 }
